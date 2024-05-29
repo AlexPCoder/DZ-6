@@ -1,7 +1,10 @@
 
-V
-java:S1220""Move this file to a named package.J$522dbdbd-dbfd-44e4-a5ec-a353206dd891
-f
-java:S3457"%String contains no format specifiers.(Šª„ıÿÿÿÿJ$3e88d7aa-aade-4c08-ba78-6aeac3b04d5f
-k	java:S106"+Replace this use of System.out by a logger.(Šª„ıÿÿÿÿJ$e8163275-6108-4611-b12a-9b77f2c2a1f8
-k	java:S106"+Replace this use of System.out by a logger.(Ğö¶üÿÿÿÿJ$f7ec3dfd-37c2-4740-ae05-f994e76ec282
+
+java:S1192"GDefine a constant instead of duplicating this literal "London" 4 times.(Éûœ†şÿÿÿÿ8ÿÚµ®ü1J$67908188-0469-4089-8ec8-47484e13a3a0
+r	java:S106
+"+Replace this use of System.out by a logger.(ìÏ­œúÿÿÿÿ8ªÛµ®ü1J$92db4129-6006-48d3-a2b0-9bbef9c6dba6
+m	java:S106""+Replace this use of System.out by a logger.(˜âëª8µÛµ®ü1J$d61fdab6-a8f7-4205-9cbd-596c8f5f4314
+r	java:S106("+Replace this use of System.out by a logger.(¡¹—Òøÿÿÿÿ8¶Ûµ®ü1J$e2d42e58-cc8e-4fd1-bad7-e7a31f2e18fa
+r	java:S106."+Replace this use of System.out by a logger.(ÄØò¥ùÿÿÿÿ8·Ûµ®ü1J$cf7e3cdd-c5b4-41ce-8f4b-0096693206e1
+r	java:S1060"+Replace this use of System.out by a logger.(¾¸ãˆÿÿÿÿÿ8·Ûµ®ü1J$c4db479a-b60b-4601-830c-f6cb0eb9b89f
+r	java:S1062"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¸Ûµ®ü1J$d32ab792-bff5-4082-a682-44b009175fe5
