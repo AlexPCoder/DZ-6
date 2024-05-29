@@ -1,15 +1,54 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        String[] citiesArray = {"London", "Lviv", "New York"};
+        String searchCity = "London";
+
+        boolean resultArray = containsCity(citiesArray, searchCity);
+        System.out.println("Результат для масиву: " + resultArray);
+
+
+        List<String> citiesList = new ArrayList<>(List.of("London", "Lviv", "Lviv", "New York", "London"));
+        removeDuplicatesAndPrint(citiesList);
+    }
+
+
+    public static boolean containsCity(String[] cities, String searchCity) {
+        for (String city : cities) {
+            if (city.equals(searchCity)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    public static void removeDuplicatesAndPrint(List<String> cities) {
+
+        Set<String> uniqueCities = new HashSet<>(cities);
+
+
+        for (String city : uniqueCities) {
+            System.out.println(city);
+        }
+
+
+        Iterator<String> iterator = uniqueCities.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+
+        for (String city : uniqueCities) {
+            char[] charArray = city.toCharArray();
+            System.out.print("Місто: " + city + " -> Символи: ");
+            for (char c : charArray) {
+                System.out.print(c + " ");
+            }
+            System.out.println();
         }
     }
-}
+
+    }
